@@ -1,0 +1,15 @@
+requestname:
+HOTEL_DETAIL
+curl:
+curl -X GET \
+  'http://hotel.ledivan.com.br:8080/hotels/36351656/contents?resolveNested=true' \
+  -H 'Accept: */*' \
+  -H 'Accept-Encoding: gzip, deflate' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: dtCookie==3=srv=2=sn=2148DFF062A0EEC86FFE9264BC08043B=perc=100000=ol=0=mul=1' \
+  -H 'Host: hotel.ledivan.com.br:8080' \
+  -H 'Postman-Token: 60cbb5a1-e941-4ea5-b5cc-d5d78218d6f7,1b428b58-2701-4e9a-bf9f-1c280706d326' \
+  -H 'User-Agent: PostmanRuntime/7.16.3' \
+  -H 'cache-control: no-cache' \
+  -H 'gtw-agent-sign: TEST'
