@@ -16,7 +16,7 @@ spec:
           creationTimestamp: null
         spec:
           containers:
-          - image: 260584439167.dkr.ecr.sa-east-1.amazonaws.com/monitoringhotel:__TAG__
+          - image: ledivan.dkr.ecr.sa-east-1.amazonaws.com/ledivan:__TAG__
             imagePullPolicy: IfNotPresent
             name: monitoring-hoteis
             resources:
